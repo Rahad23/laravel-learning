@@ -9,7 +9,8 @@ class myController extends Controller
 {
      public function index()
      {
-       return view('contact');
+      //  return view('contact');
+      abort(429);
      }
      public function about()
      {
